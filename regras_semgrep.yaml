@@ -3,7 +3,7 @@ rules:
     patterns:
       - pattern: print(...)
       - pattern: |
-          if $X > 18
+          if $X > 18:
       - pattern: |
           if $B == 0:
               ...
